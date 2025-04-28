@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NepMag - Health Magazine</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header (Flexbox) -->
+  <header>
+    <div class="logo">
+      <h1>NepMag</h1>
+      <p class="tagline">Wellness • Fitness • Nutrition</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Wellness</a></li>
+        <li><a href="#">Fitness</a></li>
+        <li><a href="#">Nutrition</a></li>
+        <li><a href="#">Mental Health</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Featured Article (Flexbox) -->
+  <section class="featured">
+    <div class="featured-image">
+      <img src="https://blog.nasm.org/hubfs/the-science-of-sleep-blog.jpg" alt="Featured article image">
+    </div>
+    <div class="featured-content">
+      <h2>The Science of Sleep: How Rest Impacts Your Overall Health</h2>
+      <p>New research reveals the critical connections between quality sleep and immune function, cognitive performance, and emotional wellbeing. Our health experts share the latest findings.</p>
+      <a href="#" class="read-more">Read Full Story</a>
+    </div>
+  </section>
+
+  <!-- Main Content (CSS Grid) -->
+  <main class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3>Health Topics</h3>
+        <ul class="categories">
+          <li><a href="#">Preventive Care</a></li>
+          <li><a href="#">Healthy Eating</a></li>
+          <li><a href="#">Exercise Science</a></li>
+          <li><a href="#">Mental Wellness</a></li>
+          <li><a href="#">Medical Research</a></li>
+          <li><a href="#">Holistic Health</a></li>
+        </ul>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3>Editor's Picks</h3>
+        <div class="mini-post">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_sLR682MvcPS-pZyhT5_NZz5yXo4lnrCeg&s" alt="Editor's pick thumbnail">
+          <div>
+            <h4>Plant-Based Protein Sources</h4>
+            <span class="date">April 15, 2025</span>
+          </div>
+        </div>
+        <div class="mini-post">
+          <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/4/2022/03/264356-Meditation-for-Beginners_-A-Guide-1296x728-header-1024x576.jpg" alt="Editor's pick thumbnail">
+          <div>
+            <h4>Meditation for Beginners</h4>
+            <span class="date">April 12, 2025</span>
+          </div>
+        </div>
+        <div class="mini-post">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfBYNnjTnv2A33Zn2LcfTiXqZzGvv2p_SmRg&s" alt="Editor's pick thumbnail">
+          <div>
+            <h4>Home Workout Essentials</h4>
+            <span class="date">April 10, 2025</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Articles Grid -->
+    <section class="articles">
+      <article class="article-card">
+        <div class="article-image">
+          <img src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/health-benefits-of-eggs-1296x728-feature.jpg?w=1155&h=1528" alt="Article image">
+        </div>
+        <div class="article-content">
+          <h3>Superfoods That Actually Deserve the Title</h3>
+          <p>Nutritionists weigh in on which foods truly offer exceptional health benefits and which are just marketing hype.</p>
+          <div class="article-meta">
+            <span class="date">April 18, 2025</span>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKR0-UUhankivA8RJL4_Ws7OV_a6ZjInrbdg&s" alt="Article image">
+        </div>
+        <div class="article-content">
+          <h3>The 30-Minute Workout That Delivers Results</h3>
+          <p>Short on time? This efficient exercise routine maximizes fat burning and muscle building in just half an hour.</p>
+          <div class="article-meta">
+            <span class="date">April 16, 2025</span>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjBfYR1QLi3JEWDYHOSHLETAu58uAJBg4cw&s" alt="Article image">
+        </div>
+        <div class="article-content">
+          <h3>Digital Detox: Reclaiming Your Mental Space</h3>
+          <p>How taking regular breaks from technology can improve focus, reduce anxiety, and enhance overall wellbeing.</p>
+          <div class="article-meta">
+            <span class="date">April 14, 2025</span>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1Z8djoBhIFq8I68W_Mp_yDTkCpg71ikZtQ&s" alt="Article image">
+        </div>
+        <div class="article-content">
+          <h3>The Science of Habit Formation: Making Health Changes Stick</h3>
+          <p>Psychological insights on how to build lasting healthy habits and overcome common obstacles to behavior change.</p>
+          <div class="article-meta">
+            <span class="date">April 12, 2025</span>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQbQaCdLR6N9AcOcN4eeRwzk1RLmubKXnM8g&s" alt="Article image">
+        </div>
+        <div class="article-content">
+          <h3>Gut Health: The Foundation of Your Immune System</h3>
+          <p>How your microbiome affects everything from digestion to brain function, and foods that support gut health.</p>
+          <div class="article-meta">
+            <span class="date">April 10, 2025</span>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-image">
+          <img src="http://trxtraining.com/cdn/shop/articles/Functional_Fitness.jpg?v=1645067939" alt="Article image">
+        </div>
+        <div class="article-content">
+          <h3>Functional Fitness: Training for Everyday Life</h3>
+          <p>Exercises that improve your ability to perform daily activities and prevent common injuries as you age.</p>
+          <div class="article-meta">
+            <span class="date">April 8, 2025</span>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Simplified Footer (Flexbox) -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 NepMag Health</p>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('nav').classList.toggle('active');
+      this.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
